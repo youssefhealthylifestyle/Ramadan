@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verdana",sans-serif;
+  color: rgb(224, 221, 36);
+  margin: 0;
+  background-image:url(https://imgs.search.brave.com/SW_CBAguODpmD43yrpPeJ5s9PTLS-86GVF33phJiCpA/rs:fit:736:414:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vNzM2/eC8yNC85Yy9mMC8y/NDljZjA0MDQ3Y2Ux/NDQyMjc0YzMxZDky/YjVlMTNmYS5qcGc) ;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+
+
+
+
+}
+h1{
+  font-weight:normal ;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+.countdown-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+.count-down-el {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.count-down-el span{
+  font-size: 1.3rem;
+}
